@@ -32,7 +32,8 @@ private static void enterPhrase() {
 	String ph = phrase.nextLine();
 	
 	try {
-		if (!ph.equals(a)) {System.out.println("That's wrong phrase!"); enterPhrase();}	
+		if (!ph.equals(a)) {System.out.println("That's wrong phrase!"); enterPhrase();}
+		else {System.out.println("That's right phrase!");}
 		} 
 	catch (Exception ex) {} 
 
